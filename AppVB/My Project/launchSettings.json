@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AppVB": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

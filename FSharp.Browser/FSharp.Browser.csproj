@@ -22,5 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\AppC\AppC.csproj" />
     <ProjectReference Include="..\AppF\AppF.fsproj" />
+    <ProjectReference Include="..\AppVB\AppVB.vbproj" />
   </ItemGroup>
 </Project>

@@ -1,10 +1,11 @@
-﻿<Page
+﻿<sdk:Page
     x:Class="AppC.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:AppC">
 
-    <Canvas>
-        <TextBlock Text="AppC#, Hello!" x:Name="TextBlock1" Canvas.Left="20" Canvas.Top="30"/>
-    </Canvas>
-</Page>
+    <Button Name="btn" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click">
+        C#, Click Here!
+    </Button>
+</sdk:Page>

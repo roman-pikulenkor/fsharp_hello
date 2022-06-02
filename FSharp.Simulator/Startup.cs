@@ -8,9 +8,9 @@ namespace FSharp.Simulator
         [STAThread]
         static int Main(string[] args)
         {
-            //return SimulatorLauncher.Start(typeof(App));
             //return SimulatorLauncher.Start(typeof(AppC.App));
-            return SimulatorLauncher.Start(typeof(AppF.App));
+            //return SimulatorLauncher.Start(typeof(AppF.App));
+            return SimulatorLauncher.Start(typeof(AppVB.App));
         }
     }
 }

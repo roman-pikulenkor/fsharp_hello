@@ -24,9 +24,9 @@ namespace FSharp.Browser
         {
             Application.RunApplication(() =>
             {
-                //var app = new FSharp.App();
                 //var app = new AppC.App();
-                var app = new AppF.App();
+                //var app = new AppF.App();
+                var app = new AppVB.App();
             });
         }
     }
