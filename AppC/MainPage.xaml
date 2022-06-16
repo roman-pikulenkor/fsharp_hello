@@ -6,6 +6,6 @@
     xmlns:local="clr-namespace:AppC">
 
     <Button Name="btn" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click">
-        C#, Click Here!
+        VB.NET, Click Here!
     </Button>
 </sdk:Page>
