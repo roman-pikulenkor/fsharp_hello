@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace AppC
 {
-    public partial class MainPage : Page
+    public partial class MainPage : UserControl
     {
         public MainPage()
         {

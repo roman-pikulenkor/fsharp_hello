@@ -20,7 +20,8 @@ namespace AppC
 
             // Enter construction logic here...
 
-            var mainPage = new MainPage();
+            // var mainPage = new MainPage();
+            var mainPage = new BuiltInControl();
             Window.Current.Content = mainPage;
         }
     }

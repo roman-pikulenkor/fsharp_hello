@@ -4,7 +4,7 @@ open System
 open System.Windows
 open System.Windows.Controls
 
-type MyPage = class
+type MainPage = class
     inherit UserControl
     
     new () as this = {} then
@@ -22,8 +22,6 @@ type App = class
     inherit Application
     
     new () as this = {} then
-        this.Startup.Add(fun _ ->  this.RootVisual <- new MyPage())
-        //base.Exit.Add( fun _ -> ()) //this.Application_Exit)
-        //this.InitializeComponent()
-
+        // this.Startup.Add(fun _ ->  this.RootVisual <- new MainPage())
+        this.Startup.Add(fun _ ->  this.RootVisual <- new BuiltInControl())
 end
